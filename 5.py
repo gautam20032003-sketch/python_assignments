@@ -1,5 +1,4 @@
-# Write a code to merge two dictionaries into a new dictionary and print it.
-dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
-dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
-dict1.update(dict2)
-print(dict1)
+for row in range(4, 1, -1):
+    for column in range(1, 4):
+            print(row, end="")
+    print("")
