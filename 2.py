@@ -1,0 +1,11 @@
+mylist=[10,20,30,40,50]
+mylist[1]=200
+print(mylist)
+mylist.append(600)
+print(mylist)
+mylist.insert(2,300)
+print(mylist)
+mylist.remove(600)
+print(mylist)
+mylist.pop(0)
+print(mylist)
