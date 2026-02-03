@@ -1,6 +1,14 @@
-# Create a copy of a list [10, 20, 30] and modify the copy. Print both the original and the copied list to demonstrate they are independent.
-a=[10,20,30]
-b=a[:] #create a copy of list a
-b.append(40) #modify the copied list
-print("b",b)
-print("a",a)
+nested_student_dict = {
+    "class": {
+        "student": {
+            "name": "Mike",
+            "marks": {
+                "physics": 70,
+                "history": 80
+            }
+        }
+    }
+}
+nested_student_dict["class"]["student"]["name"]="jasse"
+print(nested_student_dict["class"]["student"]["name"])
+print(nested_student_dict)

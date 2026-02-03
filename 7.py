@@ -1,5 +1,5 @@
-# Count and print how many times 'Football' appears in list.
-sports=["Cricket","Football","Hockey","Football","Tennis","Football"]
-count=sports.count("Football")
-print(count)
+# given a nested dictionary {'person': {'name': 'Alice', 'age': 30}}, print Alice’s age.
+data = {'person': {'name': 'Alice', 'age': 30}}
+print(data["person"]["age"])   
+
 
