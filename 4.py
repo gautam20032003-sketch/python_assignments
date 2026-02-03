@@ -1,3 +1,4 @@
-mylist=[100,200,300,400,500]
-mylist.reverse()
-print(mylist)
+my_dict = {'name': 'Alice', 'age': 35, 'city': 'New York'}
+my_dict.clear()
+print(my_dict)
+# Clear all key-value pairs from a given dictionary and print it.

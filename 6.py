@@ -1,8 +1,9 @@
-# mylist=[8,2,15,1,9]
-# print(min(mylist))
-# print(max(mylist))
-mylist=[8,2,15,1,9]
-max=max(mylist)
-min=min(mylist)
-print("maximum is:",max)
-print("minimum is:",min)
+# Given a string, create a dictionary where keys are characters and values are their frequencies in the string
+string1 = 'Jessa'
+c={}
+for ch in string1:
+    if ch in c:
+        c[ch]+=1
+    else:
+        c[ch]=1 
+print(c)           

@@ -1,5 +1,7 @@
-number=[10,20,30,40,50]
-sum=sum(number)  #calculate sum of elements
-average=sum/len(number)#calculate average is the sum divided by number of elements
-print(sum)
-print(average)
+# keys = ['Ten', 'Twenty', 'Thirty']
+# values = [10, 20, 30]
+# c={}
+# for i in range(len(keys)):
+#     c[keys[i]]=values[i]
+# print(c)    
+    
